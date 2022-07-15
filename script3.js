@@ -24,6 +24,7 @@ $('.clicks').on('click',function(){
 });
 
 $('#button').on('click',function(){
+    count=count+1;
     $('#box').removeClass('show');
 });
 $('#username').keyup(function(){
